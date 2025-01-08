@@ -1,0 +1,12 @@
+### Get pikachu
+GET http://localhost:1234/pokemon/pikachu
+
+### Create a pikachu
+POST http://localhost:1234/pokemon
+Content-Type: application/json
+
+{
+    "name": "pikachu de fede",
+    "type": "normal",
+    "moves": ["transform", "jump", "attack"]
+}

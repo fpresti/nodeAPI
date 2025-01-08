@@ -20,12 +20,14 @@
   },
   "homepage": "https://github.com/fpresti/nodeAPI#readme",
   "dependencies": {
+    "express": "4.21.1",
+    "nodeapi": "file:",
     "picocolors": "^1.1.0"
   },
   "devDependencies": {
     "standard": "^17.1.2"
   },
   "eslintConfig": {
-    "extends":"standard"
+    "extends": "standard"
   }
 }
